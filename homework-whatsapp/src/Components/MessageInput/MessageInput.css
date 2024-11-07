@@ -1,0 +1,41 @@
+.message-input{
+    align-items: center;
+    background-color: #F0F2F5;
+    color: #54656F;
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    padding: 0px 20px;
+}
+
+.left-icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+    font-size: 24px;
+    height: 52px;
+}
+form {
+    position: relative;
+    width: 690px;
+}
+
+input{
+    border: none;
+    border-radius: 7px;
+    height: 38px;
+    width: 100%;
+
+}
+
+label{
+    font-size: 14px;
+    left: 20px;
+    position: absolute;
+    top:25%;
+}
+
+.bi-mic-fill{
+    font-size: 20px;
+}

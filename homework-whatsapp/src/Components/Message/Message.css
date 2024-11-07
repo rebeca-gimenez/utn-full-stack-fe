@@ -10,7 +10,7 @@
     height: 33px;
     margin: 2px;
     max-width: 545px;
-    min-width: 91px;
+    min-width: 70px;
     padding: 7px 7px 5px 9px;
 }
 
@@ -38,25 +38,35 @@
     color: #667781;
     padding-right: 3px;
 }
+/*
+.text-icon {
+    width: 15px;
+}
+*/
+.bi-check-all.viewed {
+    color: #5BC1E9;
+}
 
 .bi-check-all {
-    color: #5BC1E9;
-    font-size: 17px;
+    color: #8696A0;
+    font-size: 18px;
     margin-bottom: -5px;
 }
 
 .bi-check {
     color: #8696A0;
-    font-size: 17px;
+    font-size: 18px;
     margin-bottom: -5px;
 }
 
 .bi-clock {
     color: #8696A0;
-    font-size: 9px;
+    font-size: 10px;
     margin-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 3px;
 }
 
-.text-icon {
-    width: 15px;
+.text-icon.sender-user{
+    display: none;
 }

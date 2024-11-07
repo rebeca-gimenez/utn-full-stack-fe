@@ -7,31 +7,80 @@ const MessagesScreen = () => {
     const messages = [
         {
             sender: 'ME',
-            hour: '23:10',
+            hour: '4:25 PM',
             id: 1,
+            text: '.',
+            status: 'viewed'
+        },
+        {
+            sender: 'ME',
+            hour: '4:25 PM',
+            id: 2,
+            text: '.',
+            status: 'viewed'
+        },
+        {
+            sender: 'ME',
+            hour: '4:25 PM',
+            id: 3,
+            text: '.',
+            status: 'viewed'
+        },
+        {
+            sender: 'ME',
+            hour: '4:25 PM',
+            id: 4,
+            text: '.',
+            status: 'viewed'
+        },
+        {
+            sender: 'ME',
+            hour: '4:25 PM',
+            id: 5,
+            text: '.',
+            status: 'viewed'
+        },
+        {
+            sender: 'ME',
+            hour: '4:25 PM',
+            id: 6,
+            text: '.',
+            status: 'viewed'
+        },
+        {
+            sender: 'ME',
+            hour: '4:25 PM',
+            id: 7,
+            text: '.',
+            status: 'viewed'
+        },
+        {
+            sender: 'ME',
+            hour: '4:26 PM',
+            id: 8,
             text: 'Hola que tal?',
             status: 'viewed'
         },
         {
-            emisor: 'USUARIO',
-            hour: '23:11',
-            id: 2,
+            emisor: 'USER',
+            hour: '4:26 PM',
+            id: 9,
             text: 'Si, hoy aprendi estados',
             status: 'viewed'
         },
         {
             sender: 'ME',
-            hour: '23:12',
-            id: 3,
+            hour: '4:26 PM',
+            id: 10,
             text: 'Eso que significa?',
             status: 'not-viewed'
         },
         {
             sender: 'ME',
-            hour: '23:13',
-            id: 4,
+            hour: '4:27 PM',
+            id: 11,
             text: 'Estas ahi?',
-            status: 'not-received'
+            status: 'received'
         },
     ]
     //if sender its 'ME' then class="right-aligned"

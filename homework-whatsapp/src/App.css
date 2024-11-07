@@ -6,6 +6,15 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.list{
-    height: 500px;
+
+.comparison{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.screenshot img{
+    background-color: #F0F2F5;
+    width: 860px;
 }

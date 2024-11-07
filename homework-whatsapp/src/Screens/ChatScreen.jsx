@@ -1,4 +1,6 @@
 import React from 'react'
+import MessagesScreen from './MessagesScreen'
+import MessageInput from '../Components/MessageInput/MessageInput'
 
 const ChatScreen = () => {
   const users = [
@@ -28,7 +30,10 @@ const ChatScreen = () => {
     }
   ]
   return (
-    <div>ChatScreen</div>
+    <div>
+      <MessagesScreen/>
+      <MessageInput/>
+    </div>
   )
 }
 

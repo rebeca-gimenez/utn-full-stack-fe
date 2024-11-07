@@ -1,6 +1,5 @@
 /* MESSAGESLIST CSS */
 .messages-list{
-    border: 1px solid black;
     display: inline-flex;
     flex-direction: column;
     align-items: baseline;
