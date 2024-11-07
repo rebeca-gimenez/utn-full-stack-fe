@@ -1,0 +1,52 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  background-color: #5A295B;
+  color: #D5C2DA;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border: 1px solid black;
+}
+.user-name {
+  border: 1px solid green;
+  padding: 0px 0px 0px 0px;
+}
+.user-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+}
+.avatar {
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+
+.circle {
+  height: 7px;
+  width: 7px;
+}
+
+.true {
+  background-color: green;
+}
+
+.false {
+  background-color: rebeccapurple;
+  border-color: white;
+}
+

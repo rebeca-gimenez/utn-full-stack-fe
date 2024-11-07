@@ -1,0 +1,62 @@
+/* MESSAGE CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.message{
+    align-items: stretch;
+    border-radius: 6px;
+    box-shadow: 0px 2.5px 0.7px -1px #D5D4D0;
+    display: inline-flex;
+    flex-direction: row;
+    height: 33px;
+    margin: 2px;
+    max-width: 545px;
+    min-width: 91px;
+    padding: 7px 7px 5px 9px;
+}
+
+.sender-me{
+    align-self: flex-end;
+    background-color: #D9FDD3;
+}
+
+.sender-user{
+    background-color: #FFFFFF;
+}
+.text-message{
+    color: #111b21;
+    font-size: 14.2px;
+    padding-right: 6px;
+    vertical-align: bottom;
+}
+.text-data{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    font-size: 11px;
+}
+.text-hour{
+    color: #667781;
+    padding-right: 3px;
+}
+
+.bi-check-all {
+    color: #5BC1E9;
+    font-size: 17px;
+    margin-bottom: -5px;
+}
+
+.bi-check {
+    color: #8696A0;
+    font-size: 17px;
+    margin-bottom: -5px;
+}
+
+.bi-clock {
+    color: #8696A0;
+    font-size: 9px;
+    margin-bottom: 1px;
+}
+
+.text-icon {
+    width: 15px;
+}
