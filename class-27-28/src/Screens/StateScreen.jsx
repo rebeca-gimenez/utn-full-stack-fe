@@ -6,11 +6,26 @@ const StateScreen = () => {
 
     const incrementar = () => {
         //contador_state[1](contador_state[0]+1)
-        setContador(contador + 1)
+        setContador(
+            (prevContadorState) => {
+                return prevContadorState + 1
+            }
+        )
+        setContador(
+            (prevContadorState) => {
+                return prevContadorState + 1
+            }
+        )
+        setContador(
+            (prevContadorState) => {
+                return prevContadorState + 1
+            }
+        )
         setErrorMinimoContador(false) 
     }
     const decrementar = () => {
         //contador_state[1](contador_state[0]-1)
+        //Bad practice
         setContador(contador - 1)
     }
 
