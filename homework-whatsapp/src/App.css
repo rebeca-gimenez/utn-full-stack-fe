@@ -1,4 +1,11 @@
 /* APP CSS */
+/*Variables*/
+body {
+    --light-gray-background: #F0F2F5;
+    --dark-gray-icon-color-1: #54656F;
+    --dark-gray-icon-color-2: #3B4A54;
+}
+
 *{
     padding: 0;
     margin: 0;

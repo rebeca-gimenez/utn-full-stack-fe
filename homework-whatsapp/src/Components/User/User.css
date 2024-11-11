@@ -1,0 +1,18 @@
+
+.user-box {
+    display: flex;
+    background-color: var(--light-gray-background);
+}
+
+.user-icons{
+    display: flex;
+}
+
+.icon-1{
+    color: var(--dark-gray-icon-color-1)
+}
+/*video recorder A2ACB2
+/*magnifying and 3 dots 54656F, 54656F
+/*user name 111b21
+/*user status 667781
+/* user avatar DFE5E7

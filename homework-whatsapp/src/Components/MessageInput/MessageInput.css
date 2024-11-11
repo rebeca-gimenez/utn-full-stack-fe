@@ -1,7 +1,7 @@
 .message-input{
     align-items: center;
-    background-color: #F0F2F5;
-    color: #54656F;
+    background-color: var(--light-gray-background);
+    color: var(--dark-gray-icon-color-1);
     display: flex;
     justify-content: space-between;
     height: 62px;

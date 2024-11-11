@@ -3,6 +3,10 @@ import './MessageInput.css'
 import getNewMessageText from '../../helpers/getNewMessageText'
 import getNewMessagetID from '../../helpers/getNewMessagetID'
 import { getFormattedHour } from '../../helpers/getFormattedHour'
+import { BiHappy } from "react-icons/bi"
+import { AiOutlinePlus } from "react-icons/ai"
+import { BiSolidMicrophone } from "react-icons/bi"
+
 
 const MessageInput = ({messages, setMessages}) => {
     //Handler for the sender to submit a message
@@ -36,8 +40,8 @@ const MessageInput = ({messages, setMessages}) => {
     return (
         <div className='message-input'>
             <div className='left-icons'>
-                <i className="bi bi-emoji-smile"></i>
-                <i className="bi bi-plus-lg"></i>
+                <BiHappy className='icon-1' />
+                <AiOutlinePlus className='icon-2'/>
             </div>
             <div className='message-input-box'>
                 <form onSubmit={handleSenderSendNewMessage}>
@@ -45,7 +49,7 @@ const MessageInput = ({messages, setMessages}) => {
                     <input type="message" id='message' name='message'/>
                 </form>
             </div>
-            <i className="bi bi-mic-fill"></i>
+            <BiSolidMicrophone className='icon-1' />
         </div>
     )
 }

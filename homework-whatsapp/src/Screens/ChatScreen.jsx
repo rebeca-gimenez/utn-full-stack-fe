@@ -1,118 +1,17 @@
 import React, { useState } from 'react'
-import MessagesScreen from './MessagesScreen'
+import MessagesList from '../Components/MessagesList/MessagesList'
+import './ChatScreen.css'
 import MessageInput from '../Components/MessageInput/MessageInput'
+import User from '../Components/User/User'
 
-const ChatScreen = () => {
-  /*
-  const users = [
-    {
-      id: 1,
-      name: 'Steven',
-      lastHour: '23:10',
-      lastMessage: 'Hola que tal?',
-      lastSender: 'ME',
-      lastStatus: 'viewed'
-    },
-    {
-      id: 2,
-      name: 'Melanie',
-      lastHour: '23:10',
-      lastMessage: 'Hola que tal?',
-      lastSender: 'ME',
-      lastStatus: 'viewed'
-    },
-    {
-      id: 3,
-      name: 'Camila',
-      lastHour: '23:10',
-      lastMessage: 'Hola que tal?',
-      lastSender: 'ME',
-      lastStatus: 'viewed'
-    }
-  ]*/
-    const messagesList = [
-      {
-        sender: 'ME',
-        hour: '4:25 PM',
-        id: 0,
-        text: '.',
-        status: 'viewed'
-      },
-      {
-        sender: 'ME',
-        hour: '4:25 PM',
-        id: 1,
-        text: '.',
-        status: 'viewed'
-      },
-      {
-        sender: 'ME',
-        hour: '4:25 PM',
-        id: 2,
-        text: '.',
-        status: 'viewed'
-      },
-      {
-        sender: 'ME',
-        hour: '4:25 PM',
-        id: 3,
-        text: '.',
-        status: 'viewed'
-      },
-      {
-        sender: 'ME',
-        hour: '4:25 PM',
-        id: 4,
-        text: '.',
-        status: 'viewed'
-      },
-      {
-        sender: 'ME',
-        hour: '4:25 PM',
-        id: 5,
-        text: '.',
-        status: 'viewed'
-      },
-      {
-        sender: 'ME',
-        hour: '4:25 PM',
-        id: 6,
-        text: '.',
-        status: 'viewed'
-      },
-      {
-        sender: 'ME',
-        hour: '4:26 PM',
-        id: 7,
-        text: 'Hola que tal?',
-        status: 'viewed'
-      },
-      {
-        emisor: 'USER',
-        hour: '4:26 PM',
-        id: 8,
-        text: 'Si, hoy aprendi estados',
-        status: 'viewed'
-      },
-      {
-        sender: 'ME',
-        hour: '4:26 PM',
-        id: 9,
-        text: 'Eso que significa?',
-        status: 'not-viewed'
-      },
-      {
-        sender: 'ME',
-        hour: '4:27 PM',
-        id: 10,
-        text: 'Estas ahi?',
-        status: 'received'
-      },
-    ]
+const ChatScreen = ({messagesList}) => {
     const [messages, setMessages] = useState(messagesList)
   return (
     <div>
-      <MessagesScreen messageList={messages}/>
+      <User userName={'Steven'} userStatus={false}/>
+      <div className='chat-screen'>
+            <MessagesList messages={messages}/>
+      </div>
       <MessageInput messages={messages} setMessages={setMessages}/>
     </div>
   )
