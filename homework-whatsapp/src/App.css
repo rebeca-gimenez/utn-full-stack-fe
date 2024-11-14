@@ -1,13 +1,15 @@
 /* APP CSS */
 /*Variables*/
 body {
+    --white: #fff;
     --light-gray-background: #F0F2F5;
     --light-gray-1: #DFE5E7;
     --medium-gray-1: #A2ACB2;
     --dark-gray-1: #54656F;
     --dark-gray-2: #3B4A54;
     --dark-font-color: #111B21;
-
+    background-image: url("./assets/whatsapp-screenshot-2.png");
+    background-size: 1535px;
 }
 
 *{

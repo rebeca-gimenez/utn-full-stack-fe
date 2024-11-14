@@ -1,5 +1,6 @@
 import React from 'react'
 import User from '../User/User'
+import "./UsersList.css"
 
 const UsersList = ({users}) => {
     //<Link to={'contact/'+user.id}>Dummy</Link>
@@ -17,7 +18,7 @@ const UsersList = ({users}) => {
         }
     )
     return (
-        <div>
+        <div className='users-list'>
             {usersListJSX}
         </div>
     )

@@ -3,7 +3,8 @@
     display: flex;
     justify-content: space-between;
     background-color: var(--light-gray-background);
-    height: 14%;
+    height: 9.5%;
+    border: 1px solid black;
 }
 
 .user-info {
