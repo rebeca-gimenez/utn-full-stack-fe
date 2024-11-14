@@ -1,18 +1,19 @@
 import React from 'react'
 import User from '../User/User'
 
-const UsersList = (users) => {
+const UsersList = ({users}) => {
+    //<Link to={'contact/'+user.id}>Dummy</Link>
     let usersListJSX = users.map(
         ( user )=>{
             return <User 
-                id={user.id} 
-                name={user.name}
-                hour={user.lastHour}
-                text={user.lastMessage} 
-                sender={user.lastSender}
-                status={user.lastStatus}
+                userID={user.id} 
+                userName={user.name}
+                lastHour={user.lastHour}
+                lastMessage={user.lastMessage} 
+                lastSender={user.lastSender}
+                lastStatus={user.lastStatus}
                 key={user.id}
-            />
+                />
         }
     )
     return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import './message.css'
-import getClass from '../../helpers/getClass'
+import MessageIcon from './MessageIcon'
 
 const Message = ({id, sender, text, hour, status}) => {
   return (
@@ -8,7 +8,7 @@ const Message = ({id, sender, text, hour, status}) => {
         <span className='text-message'>{text}</span>
         <div className='text-data'>
           <span className='text-hour'>{hour}</span>
-          <i className={'text-icon ' + getClass(status) + ' ' + ( sender=="ME" ? 'sender-me' : 'sender-user' )}></i>
+          <MessageIcon status={status}/>
         </div>
     </div>
   )

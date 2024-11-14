@@ -16,10 +16,8 @@ const MessagesList = ({messages}) => {
         }
     )
     return (
-        <div>
-            <div className='messages-list'>
-                {messagesListJSX}
-            </div>
+        <div className='messages-list'>
+            {messagesListJSX}
         </div>
     )
 }

@@ -1,15 +1,25 @@
 
 .user-box {
     display: flex;
+    justify-content: space-between;
     background-color: var(--light-gray-background);
+    height: 14%;
+}
+
+.user-info {
+    display: flex;
 }
 
 .user-icons{
     display: flex;
 }
 
-.icon-1{
-    color: var(--dark-gray-icon-color-1)
+.video-dropdown{
+    border: 1px solid var(--medium-gray-1);
+}
+
+.user-name{
+    font-size: 16px;
 }
 /*video recorder A2ACB2
 /*magnifying and 3 dots 54656F, 54656F

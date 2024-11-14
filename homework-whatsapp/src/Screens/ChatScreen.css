@@ -1,5 +1,4 @@
 /**/
-.chat-screen {
-    background-image: url('../assets/background.png');
-    width: 860px;
+.screen{
+    display: flex;
 }

@@ -8,14 +8,6 @@
     padding: 0px 20px;
 }
 
-.left-icons{
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-    align-items: center;
-    font-size: 24px;
-    height: 52px;
-}
 form {
     position: relative;
     width: 690px;
@@ -30,10 +22,20 @@ input{
 }
 
 label{
+    color: var(--dark-gray-1);
     font-size: 14px;
     left: 20px;
     position: absolute;
     top:25%;
+}
+
+.left-icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+    font-size: 24px;
+    height: 52px;
 }
 
 .bi-mic-fill{
