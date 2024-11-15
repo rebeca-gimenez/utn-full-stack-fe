@@ -1,11 +1,12 @@
 const users = [
     {
       id: 1,
-      name: 'Steven',
+      name: 'Camila Herrera',
       lastHour: '23:10',
       lastMessage: 'Hola que tal?',
       lastSender: 'ME',
       lastStatus: 'viewed',
+      status: 'last seen today at 7:39 PM',
       messagesList: [
         {
           sender: 'ME',

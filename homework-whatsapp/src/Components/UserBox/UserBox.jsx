@@ -9,22 +9,22 @@ import './UserBox.css'
 const User = ({userName, userStatus, userAvatar}) => {
   return (
     <div className='user-box'>
-      <div className='user-info'>
-        <div>
-          {userAvatar ? userAvatar : <FaCircleUser className='light-icon-1'/>}
+      <div className='user-info-box'>
+        <div className='user-avatar'>
+          {userAvatar ? userAvatar : <FaCircleUser className='user-avatar-icon light-icon-1'/>}
         </div>
-        <div>
-          <span className='user-name'>{userName}</span>
-          <span>{userStatus}</span>
+        <div className='user-info'>
+          <span className='user--info-name'>{userName}</span>
+          <span className='user-info-status'>{userStatus}</span>
         </div>
       </div>
       <div className='user-icons'>
         <div className='video-dropdown'>
-          <FaVideo className='medium-icon-1'/>
-          <IoIosArrowDown className='medium-icon-1'/>
+          <FaVideo className='video-icon medium-icon-1'/>
+          <IoIosArrowDown className='arrow-down-icon medium-icon-1'/>
         </div>
-        <SlMagnifier className='icon-1'/>
-        <BsThreeDotsVertical className='icon-1'/>
+        <SlMagnifier className='search-icon icon-1'/>
+        <BsThreeDotsVertical className='vertical-dots-icon icon-1'/>
       </div>
     </div>
   )

@@ -1,27 +1,72 @@
-
 .user-box {
     display: flex;
     justify-content: space-between;
     background-color: var(--light-gray-background);
     height: 9.5%;
-    border: 1px solid black;
+    padding: 0px 27px 5px 20px;
 }
 
-.user-info {
+.user-info-box {
     display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.user-avatar{
+    border: 1px solid green;
+    height: 2.8em;
+    aspect-ratio: 1;
+    border-radius: 2.8em;
+}
+
+.user-avatar-icon{
+    font-size: 2.8em;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 5px;
+}
+
+.user-info-status{
+    color: var(--gray-font-color);
+    font-size: 0.9em;
 }
 
 .user-icons{
     display: flex;
+    align-items: center;
+    gap: 27px;
 }
 
 .video-dropdown{
     border: 1px solid var(--medium-gray-1);
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    height: 63%;
+    width: 65px;
+    border-radius: 17px;
 }
 
-.user-name{
-    font-size: 16px;
+.video-icon{
+    font-size: 1.3em;
 }
+.arrow-down-icon{
+    font-size: 0.6em;
+}
+.search-icon{
+    font-size: 1.2em;
+}
+
+.vertical-dots-icon{
+    font-size: 1.4em;
+}
+
+
 /*video recorder A2ACB2
 /*magnifying and 3 dots 54656F, 54656F
 /*user name 111b21

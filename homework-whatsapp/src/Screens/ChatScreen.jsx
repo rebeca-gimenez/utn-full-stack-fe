@@ -50,7 +50,7 @@ const ChatScreen = () => {
             </div>
         </div>
         <div className='messages-screen'>
-          <UserBox userName={currentUser.name} userStatus={false}/>
+          <UserBox userName={currentUser.name} userStatus={currentUser.status}/>
           <MessagesList messages={textMessages}/>
           <MessageInput messages={textMessages} setMessages={setTextMessages}/>
         </div>
