@@ -1,6 +1,8 @@
 import React from 'react'
 import './message.css'
 import MessageIcon from './MessageIcon'
+import { GoTriangleDown } from "react-icons/go";
+//<GoTriangleDown /> FOR THE FIRST MESSAGE OF THE USER
 
 const Message = ({id, sender, text, hour, status}) => {
   return (

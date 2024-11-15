@@ -8,6 +8,7 @@ import UserBox from '../Components/UserBox/UserBox'
 import usersData from '../data/usersData'
 import { BiCommentAdd } from "react-icons/bi"
 import { BsThreeDotsVertical } from "react-icons/bs"
+import Sidebar from '../Components/Sidebar/Sidebar'
 
 const ChatScreen = () => {
   const {contact_id} = useParams()
@@ -27,6 +28,7 @@ const ChatScreen = () => {
   const [textMessages, setTextMessages] = useState(firstChatUser.messagesList)
   return (
     <div className='screen' >
+      <Sidebar/>
       <div className='users-list'>
             <div>
                 <h1>Chats</h1>
