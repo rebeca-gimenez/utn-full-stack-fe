@@ -15,7 +15,7 @@
 .user-avatar{
     height: 2.8em;
     aspect-ratio: 1;
-    border-radius: 2.8em;
+    border-radius: 50%;
 }
 
 .user-avatar-icon{

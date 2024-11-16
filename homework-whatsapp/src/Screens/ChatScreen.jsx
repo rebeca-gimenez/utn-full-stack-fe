@@ -50,12 +50,12 @@ const ChatScreen = () => {
             <div>
                 <span>Get WhatsApp for Windows</span>
             </div>
-        </div>
-        <div className='messages-screen'>
-          <UserBox userName={currentUser.name} userStatus={currentUser.status}/>
-          <MessagesList messages={textMessages}/>
-          <MessageInput messages={textMessages} setMessages={setTextMessages}/>
-        </div>
+      </div>
+      <div className='messages-screen'>
+        <UserBox userName={currentUser.name} userStatus={currentUser.status}/>
+        <MessagesList messages={textMessages}/>
+        <MessageInput messages={textMessages} setMessages={setTextMessages}/>
+      </div>
     </div>
   )
 }

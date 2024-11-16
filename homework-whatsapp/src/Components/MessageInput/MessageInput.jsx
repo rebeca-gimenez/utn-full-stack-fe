@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './MessageInput.css'
 import getNewMessageText from '../../helpers/getNewMessageText'
 import getNewMessagetID from '../../helpers/getNewMessagetID'
@@ -6,11 +6,14 @@ import { getFormattedHour } from '../../helpers/getFormattedHour'
 import { BiHappy } from "react-icons/bi"
 import { AiOutlinePlus } from "react-icons/ai"
 import { BiSolidMicrophone } from "react-icons/bi"
+import { IoPaperPlaneSharp } from "react-icons/io5"
 
 
 const MessageInput = ({messages, setMessages}) => {
+
     //Handler for the sender to submit a message
     const handleSenderSendNewMessage = (event) => {
+
         event.preventDefault()
 
         const messages_jsx = event.target
@@ -37,19 +40,49 @@ const MessageInput = ({messages, setMessages}) => {
         console.log(typeof new_message)
 
     }
+
+    //State to hide the microphone button when typing
+    const [isInputEmpty, setIsInputEmpty] = useState(true);
+
+    const handleInputTextChange = (event) => {
+
+        event.preventDefault()
+
+        setIsInputEmpty(event.target.value === "")
+    }
+
     return (
-        <div className='message-input'>
+        <div className='message-box'>
+
             <div className='left-icons'>
-                <BiHappy className='icon-1' />
-                <AiOutlinePlus className='icon-2'/>
+                <span className='button-icon'>
+                    <BiHappy className='icon-1' />
+                </span>
+                <span className='button-icon'>
+                    <AiOutlinePlus className='icon-2'/>
+                </span>
             </div>
-            <div className='message-input-box'>
-                <form onSubmit={handleSenderSendNewMessage}>
-                    <label htmlFor="message">Type a message</label>
-                    <input type="message" id='message' name='message'/>
-                </form>
-            </div>
-            <BiSolidMicrophone className='icon-1' />
+
+            <form onSubmit={handleSenderSendNewMessage} className='message-form'>
+                <input type="message" id='message' name='message' onChange={handleInputTextChange}/>
+                {isInputEmpty &&
+                    <label htmlFor="message" className='message-input-label'>
+                        Type a message
+                    </label>
+                }
+                {!isInputEmpty &&
+                    <button type="submit" className='message-icon button-icon icon-1'>
+                        <IoPaperPlaneSharp />
+                    </button>
+                }
+            </form>
+
+            {isInputEmpty && 
+                <span className='button-icon'>
+                    <BiSolidMicrophone className='microphone-icon icon-1' />
+                </span>
+            }
+
         </div>
     )
 }

@@ -1,9 +1,22 @@
 /**/
 .screen{
     display: flex;
+    justify-content: space-between;
     height: 100vh;
 }
 
 .messages-screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 65.5%;
+}
+
+.icon-1{
+    color: var(--dark-gray-1);
+}
+
+.icon-2{
+    color: var(--dark-gray-2);
+
 }
