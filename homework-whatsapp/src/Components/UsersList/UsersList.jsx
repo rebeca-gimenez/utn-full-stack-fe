@@ -4,7 +4,6 @@ import "./UsersList.css"
 import { Link } from "react-router-dom"
 
 const UsersList = ({users}) => {
-    //<Link to={'contact/'+user.id}>Dummy</Link>
     let usersListJSX = users.map(
         ( user )=>{
             return <Link to={`/contact/${user.id}`}>

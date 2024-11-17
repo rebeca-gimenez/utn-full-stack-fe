@@ -1,3 +1,6 @@
 .users-list{
-    width: 29.9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
 }

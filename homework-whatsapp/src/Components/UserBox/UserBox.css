@@ -1,15 +1,23 @@
 .user-box {
+    /*Colors*/
+    background-color: var(--light-gray-background);
+
+    /*Display*/
     display: flex;
     justify-content: space-between;
-    background-color: var(--light-gray-background);
+    
     height: 9.5%;
-    padding: 0px 27px 5px 20px;
+    padding: 3px 27px 5px 20px;
 }
 
 .user-icons{
+    /*Display*/
     display: flex;
     align-items: center;
-    gap: 27px;
+    justify-content: space-between;
+
+    /*Others*/
+    width: 10rem;
 }
 
 .video-dropdown{
@@ -24,8 +32,8 @@
     
     /*Others*/
     align-items: center;
-    height: 63%;
-    width: 65px;
+    height: 2.3rem;
+    width: 4.2rem;
     border-radius: 17px;
 }
 
@@ -46,10 +54,3 @@
 .vertical-dots-icon{
     font-size: 1.4em;
 }
-
-
-/*video recorder A2ACB2
-/*magnifying and 3 dots 54656F, 54656F
-/*user name 111b21
-/*user status 667781
-/* user avatar DFE5E7

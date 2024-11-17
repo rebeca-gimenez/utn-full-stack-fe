@@ -1,0 +1,76 @@
+.chat-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.chat-nav-header{
+    /*Display*/
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 0.5em;
+
+    /*Others*/
+    padding: 0.7em 0.8em .5em 0.8em;
+    width: 461px;
+    border: 1px solid black;
+}
+
+/*Header*/
+
+.chat-header{
+    /*Display*/
+    display: flex;
+    justify-content: space-between;
+
+    /*Others*/
+    padding: 0.5em 1.2em 1em 0.9em;
+}
+
+h1{
+    /*Colors*/
+    color: var(--dark-font-color);
+    font-size: 1.4em;
+}
+
+.chat-icons{
+    display: flex;
+    gap: 1.4em;
+}
+.new-chat-icon{
+    font-size: 1.5em;
+}
+
+/*Search*/
+
+.chat-search{
+    /*Display*/
+    display: flex;
+    flex-direction: column;
+    gap: .7em;
+
+    /*Others*/
+    padding: 0;
+    border: 1px solid green;
+}
+
+.search-bar{
+    border: 1px solid red;
+    height: 38px;
+
+}
+
+.search-categories{
+    /*Display*/
+    display: flex;
+    gap: 1em;
+    border: 1px solid black;
+}
+.pill{
+    background-color: rgb(200, 200, 200,0.5);
+    padding: .4em;
+}
+
+.users-list{
+    border: 1px solid pink;
+}

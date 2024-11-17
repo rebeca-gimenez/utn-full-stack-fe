@@ -6,8 +6,7 @@ import MessagesList from '../Components/MessagesList/MessagesList'
 import MessageInput from '../Components/MessageInput/MessageInput'
 import UserBox from '../Components/UserBox/UserBox'
 import usersData from '../data/usersData'
-import { BiCommentAdd } from "react-icons/bi"
-import { BsThreeDotsVertical } from "react-icons/bs"
+import ChatNav from '../Components/ChatNav/ChatNav'
 import Sidebar from '../Components/Sidebar/Sidebar'
 
 const ChatScreen = () => {
@@ -29,28 +28,7 @@ const ChatScreen = () => {
   return (
     <div className='screen' >
       <Sidebar/>
-      <div className='users-list'>
-            <div>
-                <h1>Chats</h1>
-                <BiCommentAdd />
-                <BsThreeDotsVertical />
-            </div>
-            <div>
-                <span>Search</span>
-                <div>
-                    <span>All</span>
-                    <span>Unread</span>
-                    <span>Favorites</span>
-                    <span>Groups</span>
-                </div>
-            </div>
-            <div>
-                <UsersList users={usersData}/>
-            </div>
-            <div>
-                <span>Get WhatsApp for Windows</span>
-            </div>
-      </div>
+      <ChatNav usersData={usersData}/>
       <div className='messages-screen'>
         <UserBox userName={currentUser.name} />
         <MessagesList messages={textMessages}/>

@@ -1,7 +1,7 @@
 /**/
 .screen{
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     height: 100vh;
 }
 
@@ -9,14 +9,15 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 65.5%;
+    width: 1000px;
+    border: 1px solid blue;
 }
 
+/*Icons*/
 .icon-1{
     color: var(--dark-gray-1);
 }
 
 .icon-2{
     color: var(--dark-gray-2);
-
 }
