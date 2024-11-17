@@ -1,0 +1,39 @@
+.user-info-box{
+    /*Display*/
+    display: flex;
+    justify-content: center;
+    gap: 0.9rem;
+    align-items: center;
+
+    /*Other*/
+    color: var(--dark-font-color);
+}
+
+.user-avatar{
+    /*Colors*/
+    background-color: white;
+    /*Other*/
+    height: 2.8rem;
+    width: 2.8rem;
+    border-radius: 50%;
+}
+
+.user-avatar-icon{
+    font-size: 2.8rem;
+}
+
+.user-info{
+    /*Display*/
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    /*Other*/
+    padding-top: 0.2rem;
+
+}
+
+.user-info-text{
+    color: var(--gray-font-color);
+    font-size: 0.8rem;
+}

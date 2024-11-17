@@ -1,22 +1,20 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import { FaCircleUser } from "react-icons/fa6"
+import "./User.css"
 
-const User = ({userName, lastHour, lastMessage, userAvatar,lastSender,userID}) => {
+const User = ({userAvatar, userName, lastHour, bottomText,userID}) => {
   return (
-    <div>
-        <Link to={`/contact/${userID}`}>
-            <div>{userAvatar}</div>
-            <div>
-                <div>
-                    <span>{userName}</span>
-                    <span>{lastHour}</span>
-                </div>
-                <div>
-                    <span>{lastSender}</span>
-                    <span>{lastMessage}</span>
-                </div>
-            </div>
-        </Link>
+    <div className='user-info-box'>
+        <div className='user-avatar'>
+          {userAvatar ? userAvatar : <FaCircleUser className='user-avatar-icon light-icon-1'/>}
+        </div>
+        <div className='user-info'>
+          <div>
+            <span className='user-info-name'>{userName}</span>
+            {lastHour && <span>{lastHour}</span>}
+          </div>
+          <span className='user-info-text'>{bottomText}</span>
+        </div>
     </div>
   )
 }

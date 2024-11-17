@@ -6,34 +6,6 @@
     padding: 0px 27px 5px 20px;
 }
 
-.user-info-box {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.user-avatar{
-    height: 2.8em;
-    aspect-ratio: 1;
-    border-radius: 50%;
-}
-
-.user-avatar-icon{
-    font-size: 2.8em;
-}
-
-.user-info{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding-top: 5px;
-}
-
-.user-info-status{
-    color: var(--gray-font-color);
-    font-size: 0.8em;
-}
-
 .user-icons{
     display: flex;
     align-items: center;
@@ -41,14 +13,24 @@
 }
 
 .video-dropdown{
+    /*Colors*/
+    background-color: inherit;
     border: 1px solid var(--medium-gray-1);
+
+    /*Display*/
     display: flex;
     justify-content: center;
     gap: 5px;
+    
+    /*Others*/
     align-items: center;
     height: 63%;
     width: 65px;
     border-radius: 17px;
+}
+
+.video-dropdown:hover{
+    cursor: pointer;
 }
 
 .video-icon{

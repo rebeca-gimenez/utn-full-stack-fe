@@ -1,12 +1,14 @@
 import React from 'react'
 import User from '../User/User'
 import "./UsersList.css"
+import { Link } from "react-router-dom"
 
 const UsersList = ({users}) => {
     //<Link to={'contact/'+user.id}>Dummy</Link>
     let usersListJSX = users.map(
         ( user )=>{
-            return <User 
+            return <Link to={`/contact/${user.id}`}>
+            <User 
                 userID={user.id} 
                 userName={user.name}
                 lastHour={user.lastHour}
@@ -15,6 +17,7 @@ const UsersList = ({users}) => {
                 lastStatus={user.lastStatus}
                 key={user.id}
                 />
+            </Link>
         }
     )
     return (
