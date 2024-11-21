@@ -1,4 +1,4 @@
-.user-info-box{
+.contact-info-box{
     /*Display*/
     display: flex;
     justify-content: center;
@@ -9,7 +9,7 @@
     color: var(--dark-font-color);
 }
 
-.user-avatar{
+.contact-avatar{
     /*Colors*/
     background-color: white;
     /*Other*/
@@ -18,18 +18,18 @@
     border-radius: 50%;
 }
 
-.user-avatar-icon{
+.contact-avatar-icon{
     font-size: 2.8rem;
 }
 
-.user-info{
+.contact-info{
     /*Display*/
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
-.user-info-text{
+.contact-info-text{
     color: var(--gray-font-color);
     font-size: 0.8rem;
 }

@@ -19,7 +19,7 @@
     background-color: #D9FDD3;
 }
 
-.sender-user{
+.sender-contact{
     background-color: #FFFFFF;
 }
 .text-message{
@@ -67,6 +67,6 @@
     padding-right: 3px;
 }
 
-.text-icon.sender-user{
+.text-icon.sender-contact{
     display: none;
 }

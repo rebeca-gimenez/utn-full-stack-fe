@@ -1,36 +1,34 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import './ChatScreen.css'
-import UsersList from '../Components/UsersList/UsersList'
+import UsersList from '../Components/ContactsList/ContactsList'
 import MessagesList from '../Components/MessagesList/MessagesList'
 import MessageInput from '../Components/MessageInput/MessageInput'
-import UserBox from '../Components/UserBox/UserBox'
-import usersData from '../data/usersData'
+import ContactHeader from '../Components/ContactHeader/ContactHeader'
+import contacts from '../data/contactsData'
 import ChatNav from '../Components/ChatNav/ChatNav'
 import Sidebar from '../Components/Sidebar/Sidebar'
 
 const ChatScreen = () => {
-  const {contact_id} = useParams()
+  //Get contact ID
+  const { contact_id } = useParams()
 
-  const firstChatUser = usersData.find(
-    (user) => {
-      return user.id == 1
-    }
-  )
-  const currentChatUser = usersData.find(
-    (user) => {
-      return user.id == contact_id
+  //Find contact
+  const contact = contacts.find(
+    (contact) => {
+      return contact.id === Number(contact_id)
     }
   ) 
-  const currentUser = currentChatUser ? currentChatUser : firstChatUser
+
+  //Remember to add navigation
 
   const [textMessages, setTextMessages] = useState(firstChatUser.messagesList)
   return (
     <div className='screen' >
       <Sidebar/>
-      <ChatNav usersData={usersData}/>
+      <ChatNav/>
       <div className='messages-screen'>
-        <UserBox userName={currentUser.name} />
+        <ContactHeader aContact={contact} />
         <MessagesList messages={textMessages}/>
         <MessageInput messages={textMessages} setMessages={setTextMessages}/>
       </div>

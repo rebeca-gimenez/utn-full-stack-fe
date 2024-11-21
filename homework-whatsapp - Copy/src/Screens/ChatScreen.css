@@ -1,0 +1,10 @@
+.screen{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+.message{
+    display: flex;
+    gap: 20px;
+}

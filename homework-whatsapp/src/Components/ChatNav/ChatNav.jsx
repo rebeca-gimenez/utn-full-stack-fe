@@ -1,11 +1,10 @@
 import React from 'react'
 import { BiCommentAdd } from "react-icons/bi"
 import { BsThreeDotsVertical } from "react-icons/bs"
-import UsersList from '../UsersList/UsersList'
-import "./ChatNav.css"
 import { FaWhatsapp } from "react-icons/fa";
+import "./ChatNav.css"
 
-const ChatNav = ({usersData}) => {
+const ChatNav = () => {
     return (
         <div className='chat-nav'>
             <div className='chat-nav-header'>
@@ -26,13 +25,13 @@ const ChatNav = ({usersData}) => {
                     </div>
                 </div>
             </div>
-            <UsersList users={usersData}/>
+            <ContactsList/>
             <div>
                 <FaWhatsapp />
                 <span>Get WhatsApp for Windows</span>
             </div>
     </div>
-  )
+    )
 }
 
 export default ChatNav

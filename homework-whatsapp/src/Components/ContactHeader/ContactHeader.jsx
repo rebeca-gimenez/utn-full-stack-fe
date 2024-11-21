@@ -3,25 +3,21 @@ import { SlMagnifier } from "react-icons/sl"
 import { BsThreeDotsVertical } from "react-icons/bs"
 import { FaVideo } from "react-icons/fa"
 import { IoIosArrowDown } from "react-icons/io"
-import { FaCircleUser } from "react-icons/fa6"
-import './UserBox.css'
-import User from '../User/User'
+import './ContactHeader.css'
+import Contact from '../Contact/Contact'
 
-const UserBox = ({userAvatar, userName, userOnline, userLastHour}) => {
-  let userTextDescription = `Last seen today at ${userLastHour}`
-  if (userOnline == true) {
-    userTextDescription = "Online"
-  }
+const ContactHeader = ({contactAvatar, contactName, contactLastHour}) => {
+  let contactStatus = `Last seen today at ${contactLastHour}`
 
   return (
-    <div className='user-box'>
-      <User
-        userAvatar={userAvatar}
-        userName={userName}
-        lastHour={false}
-        bottomText={userTextDescription}
+    <div className='contact-box'>
+      <Contact
+        contactAvatar={contactAvatar}
+        contactName={contactName}
+        contactLastHour={contactLastHour}
+        bottomText={contactStatus}
       />
-      <div className='user-icons'>
+      <div className='contact-icons'>
         <button className='video-dropdown'>
           <FaVideo className='video-icon medium-icon-1'/>
           <IoIosArrowDown className='arrow-down-icon medium-icon-1'/>
@@ -33,4 +29,4 @@ const UserBox = ({userAvatar, userName, userOnline, userLastHour}) => {
   )
 }
 
-export default UserBox
+export default ContactHeader
