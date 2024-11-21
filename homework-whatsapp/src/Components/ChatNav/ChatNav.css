@@ -39,6 +39,7 @@ h1{
 }
 .new-chat-icon{
     font-size: 1.5em;
+    cursor: pointer;
 }
 
 /*Search*/
@@ -47,11 +48,10 @@ h1{
     /*Display*/
     display: flex;
     flex-direction: column;
-    gap: .7em;
+    gap: .8em;
 
     /*Others*/
-    padding: 0;
-    border: 1px solid green;
+
 }
 
 .search-bar{
@@ -63,12 +63,25 @@ h1{
 .search-categories{
     /*Display*/
     display: flex;
-    gap: 1em;
-    border: 1px solid black;
+    gap: 0.6em;
 }
 .pill{
-    background-color: rgb(200, 200, 200,0.5);
-    padding: .4em;
+    /*Colors*/
+    background-color: var(--light-gray-background);
+    color: var(--dark-gray-1);
+    /*Other*/
+    border-radius: 2em;
+    cursor: pointer;
+    padding: .4em .8em;
+}
+
+.pill:hover{
+    background-color: var(--light-gray-1);
+}
+
+#green-pill{
+    background-color: var(--light-green);
+    color: var(--dark-green-font-color);
 }
 
 .users-list{

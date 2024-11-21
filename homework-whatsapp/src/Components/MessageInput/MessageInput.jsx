@@ -71,7 +71,7 @@ const MessageInput = ({messages, setMessages}) => {
                     </label>
                 }
                 {!isInputEmpty &&
-                    <button type="submit" className='message-icon button-icon icon-1'>
+                    <button type="submit" className='send-icon button-icon icon-1'>
                         <IoPaperPlaneSharp />
                     </button>
                 }

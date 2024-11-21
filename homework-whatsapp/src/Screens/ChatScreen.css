@@ -21,3 +21,7 @@
 .icon-2{
     color: var(--dark-gray-2);
 }
+
+.green {
+    background-color: var(--light-green);
+}

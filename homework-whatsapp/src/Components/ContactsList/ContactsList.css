@@ -1,6 +1,16 @@
 .contact-list{
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
-    align-items: baseline;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.2em;
+}
+
+.contact-item{
+    border: 1px solid red;
+    display: flex;
+    padding: .6em;
+    text-decoration: none;
 }

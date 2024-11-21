@@ -49,8 +49,10 @@
 }
 .search-icon{
     font-size: 1.2em;
+    cursor: pointer;
 }
 
 .vertical-dots-icon{
     font-size: 1.4em;
+    cursor: pointer;
 }

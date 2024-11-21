@@ -1,6 +1,3 @@
-/*
-
-*/
 .message-box{
     /*Colors*/
     background-color: var(--light-gray-background);
@@ -40,6 +37,7 @@
     top: 30%;
 
     /*Other*/
+    cursor: text;
     font-size: inherit;
 }
 
@@ -66,6 +64,8 @@ input:focus + .message-input-label{
 }
 
 
+
+
 /* Icons */
 
 .button-icon{
@@ -85,12 +85,14 @@ input:focus + .message-input-label{
     font-size: inherit;
 }
 
-.message-icon{
+.send-icon{
     /*Display*/
     position: absolute;
     right: -29px;
 
     /*Other*/
+    font-size: 2em;
+    padding-left: 0.5em;
     transform: rotate(43deg);
 }
 
@@ -98,11 +100,6 @@ input:focus + .message-input-label{
     /*Display*/
     display: flex;
     gap: 1em;
-}
-
-.message-icon{
-    font-size: 2em;
-    padding-left: 0.5em;
 }
 
 .microphone-icon{

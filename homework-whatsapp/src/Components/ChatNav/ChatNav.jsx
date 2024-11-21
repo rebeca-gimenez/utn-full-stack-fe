@@ -2,7 +2,9 @@ import React from 'react'
 import { BiCommentAdd } from "react-icons/bi"
 import { BsThreeDotsVertical } from "react-icons/bs"
 import { FaWhatsapp } from "react-icons/fa";
+import { RxMagnifyingGlass } from "react-icons/rx"
 import "./ChatNav.css"
+import ContactsList from '../ContactsList/ContactsList';
 
 const ChatNav = () => {
     return (
@@ -16,9 +18,12 @@ const ChatNav = () => {
                     </span>
                 </div>
                 <div className='chat-search'>
-                    <span className='search-bar'>Search</span>
+                    <div className='search-bar'>
+                        <RxMagnifyingGlass />
+                        <span>Search</span>
+                    </div>
                     <div className='search-categories'>
-                        <span className='pill'>All</span>
+                        <span className='pill' id='green-pill'>All</span>
                         <span className='pill'>Unread</span>
                         <span className='pill'>Favorites</span>
                         <span className='pill'>Groups</span>

@@ -1,19 +1,25 @@
 import React from 'react'
 import './message.css'
-import MessageIcon from './MessageIcon'
-import { GoTriangleDown } from "react-icons/go";
+import { GoTriangleDown } from "react-icons/go"
+import { BiCheckDouble } from "react-icons/bi"
+import { BiCheck } from "react-icons/bi"
+import { LuClock } from "react-icons/lu"
 //<GoTriangleDown /> FOR THE FIRST MESSAGE OF THE USER
 
 const Message = ({sender, text, hour, status}) => {
 
   return (
-    <div className={'message' + ' ' + ( sender=="ME" ? 'sender-me' : 'sender-contact' ) }>
+    <div className={'message' + ' ' + ( sender=="ME" ? 'sender-me green' : 'sender-contact' ) }>
         <span className='text-message'>{text}</span>
         <div className='text-data'>
           <span className='text-hour'>{hour}</span>
-          {status=='viewed' && <BiCheckDouble />}
-          {status=='not-viewed' && <BiCheckDouble />}
-          {status=='received' && <LuClock />}
+          <span className='message-icon'>
+          {status==='viewed' && <BiCheckDouble className='icon-viewed'/>}
+          {status==='not-viewed' && <BiCheckDouble/>}
+          {status==='received' && <BiCheck/>}
+          {status==='not-sent' && <LuClock/>}
+
+          </span>
         </div>
     </div>
   )
