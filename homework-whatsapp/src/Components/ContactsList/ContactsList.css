@@ -9,8 +9,19 @@ ul {
 }
 
 .contact-item{
-    border: 1px solid red;
-    display: flex;
     padding: .6em;
     text-decoration: none;
+}
+.contact-box{
+    /*Display*/
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.9em;
+    align-items: center;
+
+    /*Other*/
+    color: var(--dark-font-color);
+    border: 1px solid green;
+    width: 100%;
+    padding: 3px 27px 5px 20px;
 }

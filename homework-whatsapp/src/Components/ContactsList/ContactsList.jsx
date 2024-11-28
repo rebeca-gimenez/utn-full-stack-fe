@@ -10,7 +10,7 @@ const ContactsList = () => {
             <ul className='contacts-list'>
             { contacts.map( ( contact )=>{
                 return (
-                    <li key={contact.id} className="contact-item">
+                    <li key={contact.id} className="contact-item'">
                         <Link to={`/contact/${contact.id}`}>
                         <Contact
                             contactAvatar={contact.avatar}

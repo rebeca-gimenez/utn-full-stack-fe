@@ -10,7 +10,7 @@ const ContactHeader = ({contactAvatar, contactName, contactLastHour}) => {
   let contactStatus = `Last seen today at ${contactLastHour}`
 
   return (
-    <div className='contact-box'>
+    <div className='contact-header-box'>
       <Contact
         contactAvatar={contactAvatar}
         contactName={contactName}

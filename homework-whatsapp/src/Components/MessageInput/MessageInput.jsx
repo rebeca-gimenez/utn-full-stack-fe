@@ -1,15 +1,15 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './MessageInput.css'
 import getNewMessageText from '../../helpers/getNewMessageText'
-import getNewMessagetID from '../../helpers/getNewMessagetID'
-import { getFormattedHour } from '../../helpers/getFormattedHour'
 import { BiHappy } from "react-icons/bi"
 import { AiOutlinePlus } from "react-icons/ai"
 import { BiSolidMicrophone } from "react-icons/bi"
 import { IoPaperPlaneSharp } from "react-icons/io5"
+import {ContactsContext} from '../../Context/ContactsContext'
 
 
-const MessageInput = ({messages, setMessages}) => {
+const MessageInput = ({contactID}) => {
+    const { addNewMessageToContact } = useContext(ContactsContext)
 
     //Handler for the sender to submit a message
     const handleSenderSendNewMessage = (event) => {
@@ -20,24 +20,7 @@ const MessageInput = ({messages, setMessages}) => {
 
         const new_text_message = getNewMessageText(messages_jsx)
 
-        const id = getNewMessagetID(messages)
-
-        const new_message = {
-            sender: 'ME',
-            hour: getFormattedHour(),
-            id: id,
-            text: new_text_message,
-            status: 'received'
-        }
-
-        setMessages(
-            (prevMessagesState) => {
-                return [...prevMessagesState, new_message]
-            }
-        )
-
-        console.log(new_message)
-        console.log(typeof new_message)
+        addNewMessageToContact(contactID, new_text_message)
 
     }
 
@@ -52,7 +35,7 @@ const MessageInput = ({messages, setMessages}) => {
     }
 
     return (
-        <div className='message-box'>
+        <div className='message-input-box'>
 
             <div className='left-icons'>
                 <span className='button-icon'>

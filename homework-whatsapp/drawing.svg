@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1200"
+   height="1200"
+   viewBox="0 0 317.49999 317.5"
+   version="1.1"
+   id="svg2077"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2079"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="1.0129245"
+     inkscape:cx="316.90417"
+     inkscape:cy="378.60669"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2198" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2074" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffd5d5;stroke:none;stroke-width:1.95143;stroke-dasharray:11.7085, 11.7085"
+       id="rect2252"
+       width="216.95836"
+       height="95.25"
+       x="100.54166"
+       y="63.5" />
+    <rect
+       style="fill:#ececec;stroke:none;stroke-width:0.919913;stroke-dasharray:5.51945, 5.51945"
+       id="rect3395"
+       width="216.95833"
+       height="21.166666"
+       x="100.54166"
+       y="42.333332" />
+    <rect
+       style="fill:#cccccc;stroke:none;stroke-width:0.919914;stroke-dasharray:5.51945, 5.51945"
+       id="rect3397"
+       width="216.95834"
+       height="21.166668"
+       x="100.54166"
+       y="158.75" />
+    <rect
+       style="fill:#ccffaa;fill-opacity:1;stroke:none;stroke-width:1.37003;stroke-dasharray:8.22014, 8.22014"
+       id="rect3399"
+       width="74.083328"
+       height="137.49129"
+       x="26.458338"
+       y="42.333332" />
+    <rect
+       style="fill:#afe9c6;fill-opacity:1;stroke:none;stroke-width:0.819024;stroke-dasharray:4.91412, 4.91412"
+       id="rect3401"
+       width="26.458332"
+       height="137.58333"
+       x="0"
+       y="42.333332" />
+    <rect
+       style="fill:#d5ffd5;fill-opacity:1;stroke:none;stroke-width:0.505005;stroke-dasharray:3.03002, 3.03002"
+       id="rect3403"
+       width="63.5"
+       height="21.794769"
+       x="31.75"
+       y="47.310951" />
+    <rect
+       style="fill:#f6ffd5;fill-opacity:1;stroke:none;stroke-width:0.963745;stroke-dasharray:5.78244, 5.78244"
+       id="rect3405"
+       width="63.5"
+       height="79.374992"
+       x="31.75"
+       y="74.083336" />
+    <rect
+       style="fill:#e2e3db;fill-opacity:1;stroke:none;stroke-width:0.430998;stroke-dasharray:2.58598, 2.58598"
+       id="rect3407"
+       width="63.5"
+       height="15.874999"
+       x="31.75"
+       y="158.75" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
+       x="105.26846"
+       y="69.634094"
+       id="text8577"><tspan
+         sodipodi:role="line"
+         id="tspan8575"
+         style="fill:#000000;stroke-width:0.877174"
+         x="105.26846"
+         y="69.634094">messages-list</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
+       x="102.60589"
+       y="164.88409"
+       id="text9307"><tspan
+         sodipodi:role="line"
+         id="tspan9305"
+         style="fill:#000000;stroke-width:0.877174"
+         x="102.60589"
+         y="164.88409">message-input</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
+       x="105.4986"
+       y="48.467426"
+       id="text10763"><tspan
+         sodipodi:role="line"
+         id="tspan10761"
+         style="fill:#000000;stroke-width:0.877174"
+         x="105.4986"
+         y="48.467426">contact-header</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
+       x="39.037548"
+       y="40.391846"
+       id="text12945"><tspan
+         sodipodi:role="line"
+         id="tspan12943"
+         style="fill:#000000;stroke-width:0.877174"
+         x="39.037548"
+         y="40.391846">contact-nav</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
+       x="106.15412"
+       y="40.529926"
+       id="text13675"><tspan
+         sodipodi:role="line"
+         id="tspan13673"
+         style="fill:#000000;stroke-width:0.877174"
+         x="106.15412"
+         y="40.529926">messages-section</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
+       x="31.69142"
+       y="52.816242"
+       id="text18035"><tspan
+         sodipodi:role="line"
+         id="tspan18033"
+         style="fill:#000000;stroke-width:0.877174"
+         x="31.69142"
+         y="52.816242">contact-search</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
+       x="2.0963049"
+       y="40.529926"
+       id="text18039"><tspan
+         sodipodi:role="line"
+         id="tspan18037"
+         style="fill:#000000;stroke-width:0.877174"
+         x="2.0963049"
+         y="40.529926">sidebar</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
+       x="31.551947"
+       y="80.217422"
+       id="text18769"><tspan
+         sodipodi:role="line"
+         id="tspan18767"
+         style="fill:#000000;stroke-width:0.877174"
+         x="31.551947"
+         y="80.217422">contacts-list</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.56932px;font-family:arial;-inkscape-font-specification:arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.877174;stroke-dasharray:5.26303, 5.26303"
+       x="28.81127"
+       y="163.94124"
+       id="text18773"><tspan
+         sodipodi:role="line"
+         id="tspan18771"
+         style="fill:#000000;stroke-width:0.877174"
+         x="28.81127"
+         y="163.94124">download-banner</tspan></text>
+  </g>
+</svg>

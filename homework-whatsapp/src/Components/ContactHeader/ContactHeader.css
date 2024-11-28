@@ -1,13 +1,14 @@
-.contact-box {
+.contact-header-box {
     /*Colors*/
-    background-color: var(--light-gray-background);
-
+    /*background-color: var(--light-gray-background);
+*/
     /*Display*/
     display: flex;
     justify-content: space-between;
     
+    /*Others*/
     height: 9.5%;
-    padding: 3px 27px 5px 20px;
+    padding-right: 1.5em;
 }
 
 .contact-icons{
@@ -17,7 +18,8 @@
     justify-content: space-between;
 
     /*Others*/
-    width: 10rem;
+    width: 12.5rem;
+    border: 1px solid red;
 }
 
 .video-dropdown{

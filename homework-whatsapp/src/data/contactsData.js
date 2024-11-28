@@ -1,4 +1,4 @@
-const users = [
+const contacts = [
     {
       id: 1,
       name: 'Camila Herrera',
@@ -123,4 +123,4 @@ const users = [
     }
   ]
 
-  export default users
+  export default contacts

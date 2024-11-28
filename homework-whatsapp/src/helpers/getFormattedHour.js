@@ -10,5 +10,11 @@ export const getFormattedHour =() => {
         am_pm = 'PM'
     }
 
-    return `${hours}:${currentDate.getMinutes()} ${am_pm}`
+    let minutes = currentDate.getMinutes()
+
+    if (minutes < 10) {
+        minutes = '0' + minutes
+    }
+    console.log(typeof(minutes))
+    return `${hours}:${minutes} ${am_pm}`
 }
